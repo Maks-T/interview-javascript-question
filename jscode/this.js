@@ -1,22 +1,15 @@
-name = 'a';
-
-let obj = {
-  name: 'obj',
-  f1() {
-    console.log('this f1', this.name);
-
-    const f2 = () => {
-      console.log('this f2', this.name);
-
-      function f3() {
-        console.log('this f3', this.name);
-      }
-
-      f3();
-    };
-
-    f2();
+const o = {
+  a: 1,
+  b: 2,
+  f: function () {
+    return this.a + this.b;
   },
 };
+const p = Object.create(o);
+p.a = 1;
+p.b = 4;
 
-obj.f1();
+p.f = p.f.bind(o);
+
+console.log(p.f()); // 5
+console.log(o.f()); // 5
