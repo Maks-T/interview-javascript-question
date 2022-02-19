@@ -1,4 +1,4 @@
-## Angular
+## Вопросы по Angular
 
 ### 1. Что такое Angular?
 

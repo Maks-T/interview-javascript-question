@@ -1,4 +1,4 @@
-## JavasScript in the Browser.
+## Вопросы по работе JavasScript в браузере.
 
 ### что то такое DOM?
 
