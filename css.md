@@ -50,8 +50,13 @@
 
 ### 4. Подробнее о Flex box
 
-https://wp-kama.ru/id_8045/flex-v-css.html#flex-flow-direction-wrap
-https://www.youtube.com/watch?v=O-ytfplFQ3c&list=PLNkWIWHIRwMG0EUBS8rvTRVNL9IcxcawW
+[подробная статья](https://wp-kama.ru/id_8045/flex-v-css.html#flex-flow-direction-wrap)
+
+[Подробное видео руководство](https://www.youtube.com/watch?v=eVZEwEQg4pg)
+
+[Видео кратко за 6 минут](https://www.youtube.com/watch?v=O-ytfplFQ3c&list=PLNkWIWHIRwMG0EUBS8rvTRVNL9IcxcawW)
+
+[Игра для закрепления знаний](https://flexboxfroggy.com/#ru)
 
 ### 5. свойство Position
 
@@ -133,6 +138,8 @@ https://www.youtube.com/watch?v=O-ytfplFQ3c&list=PLNkWIWHIRwMG0EUBS8rvTRVNL9Icxc
 
 Когда при объявлении стиля используется модификатор `!important`, это объявление получает наивысший приоритет среди всех прочих объявлений. Хотя технически модификатор !important не имеет со специфичностью ничего общего, он непосредственно на неё влияет. Поскольку `!important` усложняет отладку, нарушая естественное каскадирование ваших стилей, он не приветствуется и следует избегать его использования. Если к элементу применимы два взаимоисключающих стиля с модификатором `!important`, то применён будет стиль с большей специфичностью.
 
-### 11.
+### 11. Что Grid CSS?
 
-### 12.
+[Видео кратко за 13 минут](https://www.youtube.com/watch?v=MEOR2b69Pl4)
+
+[Игра для закрепления знаний](https://cssgridgarden.com/#ru)
