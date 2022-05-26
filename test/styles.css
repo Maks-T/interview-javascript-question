@@ -1,0 +1,25 @@
+.hide {
+  display: none;
+}
+
+.ques {
+  font-size: 18px;
+  color: rgb(20, 32, 1);
+}
+
+.n-ques {
+  font-size: 18px;
+  color: rgb(255, 106, 47);
+}
+
+.answer {
+  display: none;
+  font-size: 16px;
+  color: rgb(20, 32, 1);
+
+  border: 1px dashed slateblue;
+}
+
+button {
+  font-size: 20px;
+}
